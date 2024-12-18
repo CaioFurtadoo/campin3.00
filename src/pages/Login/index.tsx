@@ -45,6 +45,14 @@ export const Login: React.FC = () => {
                                 InputImgFocus={SenhaImgFocus}
                             />
 
+                            <Input
+                                type="text"
+                                label="teste"
+                                placeholder="Digite seu teste"
+                                InputImg={SenhaImg}
+                                InputImgFocus={SenhaImgFocus}
+                            />                            
+
                             <div className="flex justify-between items-center text-center mt-2">
                                 <CheckBox/>
                                 <p className="h-26px text-[14px] text-primaryColor font-bold transition duration-300 hover:scale-[1.03]">Esqueci minha senha</p>
