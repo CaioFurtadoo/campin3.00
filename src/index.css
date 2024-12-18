@@ -1,0 +1,27 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-base);
+    h1 {
+        color: var(--text-title);
+    }
+}
