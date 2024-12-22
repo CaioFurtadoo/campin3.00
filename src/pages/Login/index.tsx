@@ -43,15 +43,7 @@ export const Login: React.FC = () => {
                                 placeholder="Digite sua senha"
                                 InputImg={SenhaImg}
                                 InputImgFocus={SenhaImgFocus}
-                            />
-
-                            <Input
-                                type="text"
-                                label="teste"
-                                placeholder="Digite seu teste"
-                                InputImg={SenhaImg}
-                                InputImgFocus={SenhaImgFocus}
-                            />                            
+                            />                         
 
                             <div className="flex justify-between items-center text-center mt-2">
                                 <CheckBox/>
