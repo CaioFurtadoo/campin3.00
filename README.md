@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+ # Campin-Login
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Campin Login</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+ O Campin é um projeto de solução real e plataforma web voltada para a organização de atividades de camping. Seu principal objetivo é integrar as necessidades dos campistas em um único ambiente digital, facilitando o planejamento e proporcionando uma experiência completa e prática. Feito em React, TypeScript e Tailwind<br/>
+<a href="https://github.com/CaioFurtadoo">Veja mais projetos aqui</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align="center">
 
-- Configure the top-level `parserOptions` property like this:
+https://github.com/user-attachments/assets/1692d4fc-a7e8-4d12-b86c-13c8c3df849e
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+</p>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Tecnologias
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+-   React
+-   TypeScript
+-   Tailwind
+-   Git e Github
+
+## 💻 Projeto
+
+O Campin será uma plataforma web voltada para entusiastas do camping, oferecendo recursos como um marketplace de equipamentos, um localizador de áreas de camping, um planejador de viagens e uma comunidade interativa. Inicialmente, o sistema conta apenas com cadastro e login, mas será expandido para incluir perfis personalizados, avaliações, recomendações e integração com APIs externas para mapas e pagamentos, tornando-se uma ferramenta completa para campistas.
+
+## 🔖 Layout
+
+Feito com ♥ by Caio Furtado
