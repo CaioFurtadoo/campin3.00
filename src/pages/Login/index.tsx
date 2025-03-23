@@ -50,7 +50,10 @@ export const Login: React.FC = () => {
                                 <p className="h-26px text-[14px] text-primaryColor font-bold transition duration-300 hover:scale-[1.03]">Esqueci minha senha</p>
                             </div>
 
+                            <Link to="/">
                                 <Button text="ENTRAR" />
+                            </Link>
+
                                 </form>
 
                         <div className="flex justify-center items-center w-[100%]">

@@ -59,16 +59,17 @@ export const Register: React.FC = () => {
                                 InputImg={SenhaImg}
                                 InputImgFocus={SenhaImgFocus}
                             />
-
-                            <div className="mt-4">
-                                <Button text="REGISTRAR" />
-                            </div>
+                            <Link to="/register">
+                                <div className="mt-4">
+                                    <Button text="REGISTRAR" />
+                                </div>
+                            </Link>
                                 </form>
 
                         <div className="flex justify-center items-center w-[100%]">
                             <p className="text-primaryColor text-base flex gap-2">
                                 Já tem uma conta?
-                                <Link to="/login" className="text-#D8C716 font-semibold hover:underline  hover:text-primaryColor transition duration-300">
+                                <Link to="/" className="text-#D8C716 font-semibold hover:underline  hover:text-primaryColor transition duration-300">
                                 Login
                                 </Link>
                             </p>
